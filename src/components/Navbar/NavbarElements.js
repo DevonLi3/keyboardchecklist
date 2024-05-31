@@ -14,17 +14,17 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-	color: #877462 ;
+	color: #f3e4cb;
 	display: flex;
 	align-items: center;
-	text-decoration: none;  
+	text-decoration: none;
 	padding: 0 9rem;
+    font-family: monospace;
 	height: 100%;
 	cursor: pointer;
-	&.active {
-		color: #f3e4cb;
-        border: 2px solid;
-	}
+	&:hover {
+		color: #f2bd5e; 
+	}	
 `;
 
 export const Bars = styled(FaBars)`

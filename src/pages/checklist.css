@@ -1,65 +1,27 @@
-/* src/Checklist.css */
-.checklist {
-    width: 1200px;
-    background: #e4e4e4;
-    margin: 0 auto;
-    padding: 20px;
-    border: 3px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
+/* src/pages/checklist.css */
+body{
+  background-color: #f3e4cb;
+}
+.mt-4{
+ background-color: #f3e4cb;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: monospace;
+  color : #5d5d75;
+}
+
+.AddContainer{
+  background-color: #f3e4cb;
+  color: #a99e8f;
+  border-color: #5d5d75;
   
-  .checklist h1 {
-    margin-bottom: 20px;
-    color: #998373;
-  }
-  
-  .checklist input {
-    width: calc(100% - 60px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .checklist button {
-    padding: 10px;
-    margin-left: 5px;
-    border: none;
-    background-color: #28a745;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .checklist button:hover {
-    background-color: #218838;
-  }
-  
-  .checklist ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .checklist li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .checklist li.completed span {
-    text-decoration: line-through;
-    color: #999;
-  }
-  
-  .checklist li button {
-    background-color: #dc3545;
-  }
-  
-  .checklist li button:hover {
-    background-color: #c82333;
-  }
-  
+}
+.AddContainer:hover {
+  color: #a99e8f;
+  background-color: #e2d3b8;
+  border-color: #8f8270; /* Slightly darker border on hover */
+}
+
+

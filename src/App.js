@@ -20,13 +20,13 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
-				<Route
-					path="/typetest"
-					element={<TypeTest />}
-				/>
         <Route
           path="/checklist"
           element={<CheckList/>}
+        />
+        <Route
+        path="/typetest"
+        element={<TypeTest />}
         />
 			</Routes>
 		</Router>

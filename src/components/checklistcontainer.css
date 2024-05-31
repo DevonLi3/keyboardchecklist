@@ -1,0 +1,34 @@
+/* src/components/ChecklistContainer.css */
+body {
+  font-family: monospace;
+  background-color: #f3e4cb;
+}
+
+.Card {
+  font-family: monospace;
+  background-color: #f3e4cb;
+}
+
+.cardbody{
+  background-color: #f3e4cb;
+}
+
+.cardtitle{
+  font-family: monospace;
+  color:#5d5d75;
+}
+
+.Form-Control {
+  font-family: monospace;
+}
+
+.additem {
+  font-family: monospace;
+  background-color: #f3e4cb;
+  color: #a99e8f;
+  border-color: #5d5d75;
+}
+
+ul.list-unstyled li {
+  font-family: monospace;
+}
